@@ -34,3 +34,36 @@ code {
 .mb-2 {
   margin-bottom: 2rem;
 }
+
+.main{
+  margin-top: 50px;
+ display: flex;
+ height: 270px;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.weather_location h3{
+  font-size: 30px;
+}
+.weather_des{
+  margin-top: 16px;
+}
+.weather_temp{
+  margin-top: 200px;
+}
+.weather_temp h1{
+  font-size: 50px;
+}
+.footer{
+  display: flex;
+  
+  justify-content: space-evenly;
+  text-align: center;
+  width: 95%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255,255,255, 0.2);
+  margin-top: 400px;
+}
